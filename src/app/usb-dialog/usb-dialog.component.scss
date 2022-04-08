@@ -1,0 +1,82 @@
+.close-button {
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #249EE2;
+    color: #ffffff;
+}
+
+@media (min-width: 230px) {
+    .d-title {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .content-title {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 700;
+        letter-spacing: 0em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .content {
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #86868b;
+    }
+}
+
+@media (min-width: 734px) {
+    .d-title {
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 600;
+        letter-spacing: .007em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .content-title {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 700;
+        letter-spacing: 0em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .content {
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #86868b;
+    }
+}
+
+@media (min-width: 1069px) {
+    .d-title {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .content-title {
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 700;
+        letter-spacing: -.028em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .content {
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #86868b;
+    }
+}

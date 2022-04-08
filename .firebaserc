@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "gl-computer-reserve"
+  },
+  "targets": {
+    "gl-computer-reserve": {
+      "hosting": {
+        "GENILAND": [
+          "gl-computer-reserve"
+        ]
+      }
+    }
+  }
+}

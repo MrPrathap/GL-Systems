@@ -1,0 +1,99 @@
+.top-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+}
+
+.top-header {
+    background-color: #d9d9d9b8;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    height: 44px;
+}
+
+.nav-buttons {
+    margin: 0px 35px;
+    align-items: center;
+    font-weight: 400;
+    color: rgb(44, 44, 44);
+    letter-spacing: -.01em;
+    font-family: "gl-pro";
+}
+
+.active {
+    color: #86868b;
+    transition: .3s ease-in-out;
+}
+
+
+/*=== Mobile View ===*/
+
+@media (min-width: 230px) {
+    .hamburger-btn {
+        display: block;
+    }
+    .mat-menu {
+        display: block;
+    }
+    .nav-buttons {
+        display: none;
+    }
+    .navbar-logo-1 {
+        display: none;
+    }
+    .navbar-logo-2 {
+        display: block;
+    }
+    .gl-sidenav-toggler {
+        left: 16px;
+        position: absolute;
+    }
+    .gl-menu-toggler {
+        position: absolute;
+        right: 16px;
+    }
+}
+
+
+/*=== I-pad View ===*/
+
+@media (min-width: 734px) {
+    .hamburger-btn {
+        display: block;
+    }
+    .mat-menu {
+        display: block;
+    }
+    .nav-buttons {
+        display: none;
+    }
+    .navbar-logo-1 {
+        display: none;
+    }
+    .navbar-logo-2 {
+        display: block;
+    }
+}
+
+
+/*=== Desktop View ===*/
+
+@media (min-width: 1140px) {
+    .hamburger-btn {
+        display: none;
+    }
+    .mat-menu {
+        display: none;
+    }
+    .nav-buttons {
+        display: block;
+    }
+    .navbar-logo-1 {
+        display: block;
+    }
+    .navbar-logo-2 {
+        display: none;
+    }
+}

@@ -1,0 +1,75 @@
+.sidenav-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 16px;
+}
+
+.close {
+    position: absolute;
+    left: 16px;
+    color: #249EE2;
+}
+
+.fa-angle-left {
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+
+.menu-title {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .029em;
+    font-family: 'gl-pro';
+}
+
+.mat-list-base {
+    padding-top: 4px;
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.navigation {
+    margin-top: 10px;
+    color: #249EE2;
+}
+
+.mat-list-base .mat-list-item,
+.mat-list-base .mat-list-option {
+    display: block;
+    height: 36px;
+    -webkit-tap-highlight-color: transparent;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-lnk {
+    margin-left: 20px;
+}
+
+.nav-font {
+    font-weight: 600;
+    letter-spacing: .029em;
+    font-family: 'gl-pro';
+}
+
+.gl-divider {
+    border-top-color: rgba(255, 255, 255, 0.541);
+}
+
+i {
+    margin-left: 5px;
+}
+
+.active {
+    background: #d9d9d9b8;
+    color: rgb(23, 23, 23);
+    transition: .3s ease-in-out;
+}

@@ -1,0 +1,1992 @@
+.buy-button {
+    line-height: 25px;
+    background: #249EE2;
+    color: #ffffff;
+}
+
+.argb-color {
+    background: -webkit-linear-gradient(left, #12c2e9, #78B6C0, #c471ed, #6929CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.argb-color-2 {
+    background: -webkit-linear-gradient(left, #12c2e9, #c471ed);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.argb-color-3 {
+    background: -webkit-linear-gradient(left, #7F7FD5, #86A8E7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.argb-color-4 {
+    background: -webkit-linear-gradient(left, #b92b27, #1565C0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.roundox-lft {
+    background-image: linear-gradient(120deg, #ffffffb8 0%, #d9d9d9b8 100%);
+    -webkit-backdrop-filter: blur(1.5rem);
+    backdrop-filter: blur(1.5rem);
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px rgb(0 0 0 / 20%);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.roundox-rght {
+    background-image: linear-gradient(120deg, #d9d9d9b8 0%, #ffffffb8 100%);
+    -webkit-backdrop-filter: blur(1.5rem);
+    backdrop-filter: blur(1.5rem);
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px rgb(0 0 0 / 20%);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.container-highlighter {
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.555);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.gl-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*====================== Media Query ===========================*/
+
+
+/*=== Mobile View ===*/
+
+@media (min-width: 230px) {
+    .Arena-1-compliment {
+        padding-left: 55px;
+        padding-right: 55px;
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .Arena-1-name {
+        font-size: 54px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: "gl-pro";
+        color: #000;
+    }
+    .feature-intro-text {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .002em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #424245;
+    }
+    .feature-intro-text span {
+        color: #1d1d1d;
+    }
+    .chip-design-intro {
+        background-color: #000000;
+        padding-top: 80px;
+    }
+    .chip-text {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .pinned-text-1 {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: radial-gradient(#eff1ff, #000);
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+    }
+    .chip-design-container {
+        background-color: #000000;
+    }
+    .pinned-text-2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 21px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #d9d9d9;
+    }
+    .specs-padder {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .info {
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 700;
+        letter-spacing: -.009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: radial-gradient(#eff1ff, #000);
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+    }
+    .info-span {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .cpu-specification {
+        background: #000000;
+    }
+    .unlocked-performance-text-1 {
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: "gl-pro";
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: radial-gradient(#eff1ff, #000);
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+    }
+    .magic-container-content {
+        position: relative;
+    }
+    .magic-text {
+        position: absolute;
+        top: 18%;
+        left: 10%;
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        text-align: right;
+        font-family: "gl-pro";
+        color: #1d1d1d;
+    }
+    .gpu-arch {
+        background: #000;
+    }
+    .rtx-arch {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 21px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #d9d9d9;
+    }
+    .gpu-core {
+        padding-top: 50px;
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 700;
+        letter-spacing: -.009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #12c2e9, #c471ed, #f64f59);
+    }
+    .gpu-core-span {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .gpu-specification {
+        background: #000;
+    }
+    .spec-1 {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .spec-1 span {
+        padding-left: 20px;
+        font-size: 32px;
+        font-weight: 700;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #4568DC, #B06AB3);
+    }
+    .spec-2 {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .spec-2 span {
+        padding-left: 20px;
+        font-size: 32px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #16BFFD, #CB3066);
+    }
+    .divider {
+        border-top-color: rgba(255, 255, 255, 0.541);
+    }
+    .monitor-resolution {
+        background: #000000;
+    }
+    .figure-text-container {
+        position: relative;
+    }
+    .text-container {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #000000b8;
+        -webkit-backdrop-filter: blur(1.5rem);
+        backdrop-filter: blur(1.5rem);
+        border-radius: 20px;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.486);
+        transition: box-shadow 0.25s ease, transform 0.25s ease;
+    }
+    .resolution-text {
+        color: #ffffffb8;
+        padding-top: 20px;
+        font-size: 19px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .resolution-text-2 {
+        margin-left: 70px;
+        margin-right: 70px;
+        padding-bottom: 20px;
+        font-size: 32px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: "gl-pro";
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #16BFFD, #CB3066);
+    }
+    .multiple-monitor {
+        background: #000000;
+    }
+    .content-padder {
+        padding-top: 150px;
+    }
+    .figure-text-container-2 {
+        position: relative;
+    }
+    .multiple-monitor-text {
+        position: absolute;
+        top: 34%;
+        left: 63%;
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+        font-size: 54px;
+        line-height: 1.03125;
+        font-weight: 600;
+        letter-spacing: -0.015em;
+        font-family: "gl-pro";
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+        background-image: radial-gradient( #41244F, #B06AB3, #5E4BA1, #86559e);
+    }
+    .multiple-monitor-content {
+        background: #000000;
+    }
+    .monitor-content-1 {
+        padding-top: 40px;
+        font-size: 21px;
+        font-weight: 700;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #d9d9d9;
+    }
+    .monitor-content-port {
+        padding-top: 10px;
+        font-size: 21px;
+        font-weight: 700;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #d9d9d9;
+    }
+    .monitor-content-2 {
+        color: #86868b;
+        padding-top: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 500;
+        letter-spacing: .011em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .ray-tracing-specification {
+        background: #000000;
+    }
+    .rt-tech-title {
+        color: #f5f5f7;
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .rt-tech-title-2 {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        background-image: radial-gradient(#eff1ff, #000);
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 6px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .rt-tech-description {
+        font-size: 24px;
+        line-height: 1.33341;
+        font-weight: 500;
+        letter-spacing: .009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #a1a1a6;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .image-container {
+        position: relative;
+    }
+    .image-content-text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        background-color: #000000b8;
+        -webkit-backdrop-filter: blur(1.5rem);
+        backdrop-filter: blur(1.5rem);
+        border-radius: 15px;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.486);
+        transition: box-shadow 0.25s ease, transform 0.25s ease;
+    }
+    .rtx-state-text {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 500;
+        letter-spacing: .011em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .state-color-1 {
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: -webkit-linear-gradient(to right, #ed213a, #93291e);
+        background-image: linear-gradient(to right, #ed213a, #93291e);
+    }
+    .state-color-2 {
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: -webkit-linear-gradient(to right, #a8ff78, #78ffd6);
+        background-image: linear-gradient(to right, #a8ff78, #78ffd6);
+    }
+    .rtx-off {
+        top: 10%;
+        left: 20%;
+        padding: 20px 30px;
+    }
+    .rtx-on {
+        top: 90%;
+        right: -5%;
+        padding: 20px 30px;
+    }
+    .game-package {
+        background: #000000;
+    }
+    .game-package-text {
+        color: #f5f5f5;
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .installed-games {
+        background: #000000;
+    }
+    .content-border {
+        border-radius: 20px;
+    }
+    .game-title {
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 500;
+        letter-spacing: 0em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .gta-v-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2Fgta-v-icon.png?alt=media&token=25909f8d-ea61-43de-b72f-6d9d369300a2");
+        padding-bottom: 30px;
+    }
+    .COD-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FCOD-icon.png?alt=media&token=5ff1fbcd-5dae-4e0f-a626-2e8d0bc06acf");
+        padding-bottom: 30px;
+    }
+    .fortnite-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FFortnite-icon.png?alt=media&token=7c45d2f9-cf4e-4c46-b181-f32d999530f9");
+        padding-bottom: 30px;
+    }
+    .valorant-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2Fvalorant-icon.png?alt=media&token=570923cf-3371-4155-b89d-eadc115db330");
+        padding-bottom: 30px;
+    }
+    .games-for-rotari1 {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 500;
+        letter-spacing: .011em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #86868b;
+    }
+    .memory-and-storage-container {
+        background: #000000;
+    }
+    .bg-dark {
+        border-radius: 20px;
+    }
+    .memory-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .memory-title-card {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .memory-subtitle-card {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 700;
+        letter-spacing: 0em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .memory-description-card {
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #86868b;
+    }
+    .memory-capacity-card {
+        font-size: 80px;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: -.025em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .memory-capacity-card span {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .argb-memory {
+        font-size: 36px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #f64f59, #c471ed, #12c2e9);
+    }
+    .storage-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .storage-title-card {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .storage-subtitle-card {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 700;
+        letter-spacing: 0em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .storage-description-card {
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #86868b;
+    }
+    .storage-capacity-card {
+        font-size: 80px;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: -.025em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .storage-capacity-card span {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .connectivity-section {
+        background: #000000;
+    }
+    .connectivity-row {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .connectivity-title {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: 0.004em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #f5f5f5;
+    }
+    .usb-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FUSB-icon.png?alt=media&token=349cab03-d0b6-4d91-9e63-74892f8e329a");
+    }
+    .bluetooth-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FBluetooth-icon.png?alt=media&token=8b8a683c-b341-42d3-85e6-57c995a9c127");
+    }
+    .audio-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FAudio-icon.png?alt=media&token=4af72bcb-3977-41e4-ad5d-5b7229ac7fce");
+    }
+    .wifi-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FWiFi-icon.png?alt=media&token=de039df7-a99a-47d5-a42c-9ea9d328db80");
+    }
+    .lan-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FLAN-icon.png?alt=media&token=37fba89d-c693-44ee-a4dc-74b17301331f");
+    }
+    .rgb-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FRGB-icon.png?alt=media&token=60e9d7a3-c155-4ab0-9d17-ddf28eba01df");
+    }
+    .cnt-name {
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .cnt-name:hover {
+        text-decoration: underline;
+    }
+    .instruction-note {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #ffffff;
+    }
+}
+
+
+/*=== I-pad View ===*/
+
+@media (min-width: 734px) {
+    .Arena-1-compliment {
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .Arena-1-name {
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: "gl-pro";
+        color: #000;
+    }
+    .feature-intro-text {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -.002em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #424245;
+    }
+    .feature-intro-text span {
+        color: #1d1d1d;
+    }
+    .chip-design-intro {
+        background-color: #000000;
+        padding-top: 80px;
+    }
+    .pinned-text-1 {
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: radial-gradient(#eff1ff, #000);
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+    }
+    .chip-design-container {
+        background-color: #000000;
+    }
+    .pinned-text-2 {
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #d9d9d9;
+    }
+    .specs-padder {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .info {
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 1.05;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: radial-gradient(#eff1ff, #000);
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+    }
+    .info-span {
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 700;
+        letter-spacing: -.009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .cpu-specification {
+        background: #000000;
+    }
+    .unlocked-performance-text-1 {
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: "gl-pro";
+        color: #ffffffb8;
+    }
+    .magic-container {
+        padding-top: 170px;
+    }
+    .magic-container-content {
+        position: relative;
+    }
+    .magic-text {
+        position: absolute;
+        top: -18%;
+        left: 23%;
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        text-align: left;
+        font-family: "gl-pro";
+        color: #1d1d1d;
+    }
+    .gpu-arch {
+        background: #000;
+    }
+    .rtx-arch {
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #d9d9d9;
+    }
+    .gpu-core {
+        padding-top: 50px;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 1.05;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #12c2e9, #c471ed, #f64f59);
+    }
+    .gpu-core-span {
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 700;
+        letter-spacing: -.009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .gpu-specification {
+        background: #000;
+    }
+    .spec-1 {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .spec-1 span {
+        padding-left: 20px;
+        font-size: 48px;
+        font-weight: 700;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #4568DC, #B06AB3);
+    }
+    .spec-2 {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .spec-2 span {
+        padding-left: 20px;
+        font-size: 48px;
+        font-weight: 700;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #16BFFD, #CB3066);
+    }
+    .divider {
+        border-top-color: rgba(255, 255, 255, 0.541);
+    }
+    .monitor-resolution {
+        background: #000000;
+    }
+    .figure-text-container {
+        position: relative;
+    }
+    .text-container {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        background-color: #000000b8;
+        -webkit-backdrop-filter: blur(1.5rem);
+        backdrop-filter: blur(1.5rem);
+        border-radius: 20px;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.486);
+        transition: box-shadow 0.25s ease, transform 0.25s ease;
+    }
+    .resolution-text {
+        color: #ffffffb8;
+        padding-top: 40px;
+        font-size: 21px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .resolution-text-2 {
+        padding-bottom: 40px;
+        font-size: 42px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: "gl-pro";
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #16BFFD, #CB3066);
+    }
+    .multiple-monitor {
+        background: #000000;
+    }
+    .figure-text-container-2 {
+        position: relative;
+    }
+    .multiple-monitor-text {
+        position: absolute;
+        top: 41%;
+        left: 22%;
+        transform-origin: 0 0;
+        transform: rotate(0deg);
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        font-family: "gl-pro";
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+        background-image: radial-gradient( #41244F, #B06AB3, #5E4BA1, #86559e);
+    }
+    .multiple-monitor-content {
+        background: #000000;
+    }
+    .monitor-content-1 {
+        padding-top: 50px;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #d9d9d9;
+    }
+    .monitor-content-port {
+        padding-top: 20px;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #d9d9d9;
+    }
+    .monitor-content-2 {
+        color: #86868b;
+        padding-top: 10px;
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 500;
+        letter-spacing: .009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .ray-tracing-specification {
+        background: #000000;
+    }
+    .rt-tech-title {
+        color: #f5f5f7;
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 600;
+        letter-spacing: .007em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .rt-tech-title-2 {
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        background-image: radial-gradient(#eff1ff, #000);
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 8px;
+        padding-bottom: 12px;
+    }
+    .rt-tech-description {
+        font-size: 28px;
+        line-height: 1.28583;
+        font-weight: 500;
+        letter-spacing: .007em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #a1a1a6;
+    }
+    .image-container {
+        position: relative;
+    }
+    .image-content-text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        background-color: #000000b8;
+        -webkit-backdrop-filter: blur(1.5rem);
+        backdrop-filter: blur(1.5rem);
+        border-radius: 15px;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.486);
+        transition: box-shadow 0.25s ease, transform 0.25s ease;
+    }
+    .rtx-state-text {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 500;
+        letter-spacing: .009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .state-color-1 {
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: -webkit-linear-gradient(to right, #ed213a, #93291e);
+        background-image: linear-gradient(to right, #ed213a, #93291e);
+    }
+    .state-color-2 {
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: -webkit-linear-gradient(to right, #a8ff78, #78ffd6);
+        background-image: linear-gradient(to right, #a8ff78, #78ffd6);
+    }
+    .rtx-off {
+        top: 50%;
+        left: 15%;
+        padding: 20px 40px;
+    }
+    .rtx-on {
+        top: 50%;
+        right: -5%;
+        padding: 20px 40px;
+    }
+    .game-package {
+        background: #000000;
+    }
+    .game-package-text {
+        color: #f5f5f5;
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 700;
+        letter-spacing: -.009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .installed-games {
+        background: #000000;
+    }
+    .content-border {
+        border-radius: 20px;
+    }
+    .game-title {
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 500;
+        letter-spacing: 0em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .gta-v-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2Fgta-v-icon.png?alt=media&token=25909f8d-ea61-43de-b72f-6d9d369300a2");
+        padding-bottom: 30px;
+    }
+    .COD-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FCOD-icon.png?alt=media&token=5ff1fbcd-5dae-4e0f-a626-2e8d0bc06acf");
+        padding-bottom: 30px;
+    }
+    .fortnite-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FFortnite-icon.png?alt=media&token=7c45d2f9-cf4e-4c46-b181-f32d999530f9");
+        padding-bottom: 30px;
+    }
+    .valorant-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2Fvalorant-icon.png?alt=media&token=570923cf-3371-4155-b89d-eadc115db330");
+        padding-bottom: 30px;
+    }
+    .games-for-rotari1 {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 500;
+        letter-spacing: .009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #86868b;
+    }
+    .memory-and-storage-container {
+        background: #000000;
+    }
+    .bg-dark {
+        border-radius: 20px;
+    }
+    .memory-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .memory-title-card {
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 600;
+        letter-spacing: .007em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .memory-subtitle-card {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 700;
+        letter-spacing: 0em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .memory-description-card {
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #86868b;
+    }
+    .memory-capacity-card {
+        font-size: 96px;
+        line-height: 1.04167;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .memory-capacity-card span {
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 700;
+        letter-spacing: -.009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .argb-memory {
+        font-size: 42px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #f64f59, #c471ed, #12c2e9);
+    }
+    .storage-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .storage-title-card {
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 600;
+        letter-spacing: .007em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .storage-subtitle-card {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 700;
+        letter-spacing: 0em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .storage-description-card {
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #86868b;
+    }
+    .storage-capacity-card {
+        font-size: 96px;
+        line-height: 1.04167;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .storage-capacity-card span {
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 700;
+        letter-spacing: -.009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .connectivity-section {
+        background: #000000;
+    }
+    .connectivity-title {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: 0.004em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #f5f5f5;
+    }
+    .usb-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FUSB-icon.png?alt=media&token=349cab03-d0b6-4d91-9e63-74892f8e329a");
+    }
+    .bluetooth-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FBluetooth-icon.png?alt=media&token=8b8a683c-b341-42d3-85e6-57c995a9c127");
+    }
+    .audio-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FAudio-icon.png?alt=media&token=4af72bcb-3977-41e4-ad5d-5b7229ac7fce");
+    }
+    .wifi-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FWiFi-icon.png?alt=media&token=de039df7-a99a-47d5-a42c-9ea9d328db80");
+    }
+    .lan-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FLAN-icon.png?alt=media&token=37fba89d-c693-44ee-a4dc-74b17301331f");
+    }
+    .rgb-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FRGB-icon.png?alt=media&token=60e9d7a3-c155-4ab0-9d17-ddf28eba01df");
+    }
+    .cnt-name {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: .011em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .cnt-name:hover {
+        text-decoration: underline;
+    }
+    .instruction-note {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #ffffff;
+    }
+}
+
+
+/*=== Desktop View ===*/
+
+@media (min-width: 1069px) {
+    .Arena-1-compliment {
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 96px;
+        line-height: 1.04167;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .Arena-1-name {
+        font-size: 96px;
+        line-height: 1.04167;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        color: #000;
+        font-family: "gl-pro";
+    }
+    .feature-intro-text {
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #424245;
+    }
+    .feature-intro-text span {
+        color: #1d1d1d;
+    }
+    .chip-design-intro {
+        background-color: #000000;
+        padding-top: 80px;
+    }
+    .pinned-text-1 {
+        font-size: 96px;
+        line-height: 1.0416666667;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+        background-image: radial-gradient(#eff1ff, #000);
+    }
+    .chip-design-container {
+        background-color: #000000;
+    }
+    .pinned-text-2 {
+        font-size: 28px;
+        font-weight: 500;
+        color: #d9d9d9;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .specs-padder {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .info {
+        font-size: 96px;
+        line-height: 1.04167;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+        background-image: radial-gradient(#eff1ff, #000);
+    }
+    .info-span {
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 1.05;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .cpu-specification {
+        background: #000000;
+    }
+    .unlocked-performance-text-1 {
+        font-size: 96px;
+        line-height: 1.0416666667;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+        background-image: radial-gradient(#eff1ff, #000);
+    }
+    .magic-container-content {
+        position: relative;
+    }
+    .magic-text {
+        position: absolute;
+        top: 22%;
+        left: 15%;
+        font-size: 96px;
+        line-height: 1.0416666667;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        text-align: left;
+        font-family: "gl-pro";
+        color: #1d1d1d;
+    }
+    .gpu-arch {
+        background: #000;
+    }
+    .rtx-arch {
+        font-size: 28px;
+        font-weight: 700;
+        color: #d9d9d9;
+    }
+    .gpu-core {
+        padding-top: 50px;
+        font-size: 96px;
+        line-height: 1.04167;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #12c2e9, #c471ed, #f64f59);
+    }
+    .gpu-core-span {
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 1.05;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .gpu-specification {
+        background: #000;
+    }
+    .spec-1 {
+        color: #ffffff;
+        font-size: 24px;
+        line-height: 1.1666666667;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .spec-1 span {
+        padding-left: 20px;
+        font-size: 32px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #4568DC, #B06AB3);
+    }
+    .spec-2 {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .spec-2 span {
+        padding-left: 20px;
+        font-size: 32px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #16BFFD, #CB3066);
+    }
+    .divider {
+        border-top-color: rgba(255, 255, 255, 0.541);
+    }
+    .monitor-resolution {
+        background: #000000;
+    }
+    .figure-text-container {
+        position: relative;
+    }
+    .text-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #000000b8;
+        -webkit-backdrop-filter: blur(1.5rem);
+        backdrop-filter: blur(1.5rem);
+        border-radius: 20px;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.486);
+        transition: box-shadow 0.25s ease, transform 0.25s ease;
+    }
+    .resolution-text {
+        color: #ffffffb8;
+        padding-top: 40px;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .resolution-text-2 {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: "gl-pro";
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #16BFFD, #CB3066);
+    }
+    .multiple-monitor {
+        background: #000000;
+    }
+    .figure-text-container-2 {
+        position: relative;
+    }
+    .multiple-monitor-text {
+        position: absolute;
+        top: 42%;
+        left: 22%;
+        transform-origin: 0 0;
+        transform: rotate(0deg);
+        font-size: 128px;
+        line-height: 1.03125;
+        font-weight: 600;
+        letter-spacing: -0.015em;
+        font-family: "gl-pro";
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+        background-image: radial-gradient( #41244F, #B06AB3, #5E4BA1, #86559e);
+    }
+    .multiple-monitor-content {
+        background: #000000;
+    }
+    .monitor-content-1 {
+        padding-top: 40px;
+        font-size: 28px;
+        font-weight: 700;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #d9d9d9;
+    }
+    .monitor-content-port {
+        padding-top: 10px;
+        font-size: 28px;
+        font-weight: 700;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #d9d9d9;
+    }
+    .monitor-content-2 {
+        color: #86868b;
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 500;
+        letter-spacing: .007em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .ray-tracing-specification {
+        background: #000000;
+    }
+    .rt-tech-title {
+        color: #f5f5f7;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .rt-tech-title-2 {
+        font-size: 96px;
+        line-height: 1.04167;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        background-image: radial-gradient(#eff1ff, #000);
+        background-size: 100% 200%;
+        background-position: 50% 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 16px;
+        padding-bottom: 12px;
+    }
+    .rt-tech-description {
+        font-size: 32px;
+        line-height: 1.25;
+        font-weight: 500;
+        letter-spacing: .004em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #a1a1a6;
+    }
+    .image-container {
+        position: relative;
+    }
+    .image-content-text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        background-color: #000000b8;
+        -webkit-backdrop-filter: blur(1.5rem);
+        backdrop-filter: blur(1.5rem);
+        border-radius: 15px;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.486);
+        transition: box-shadow 0.25s ease, transform 0.25s ease;
+    }
+    .rtx-state-text {
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 500;
+        letter-spacing: .007em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .state-color-1 {
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: -webkit-linear-gradient(to right, #ed213a, #93291e);
+        background-image: linear-gradient(to right, #ed213a, #93291e);
+    }
+    .state-color-2 {
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: -webkit-linear-gradient(to right, #a8ff78, #78ffd6);
+        background-image: linear-gradient(to right, #a8ff78, #78ffd6);
+    }
+    .rtx-off {
+        top: 50%;
+        left: 10%;
+        padding: 20px 40px;
+    }
+    .rtx-on {
+        top: 50%;
+        right: -5%;
+        padding: 20px 40px;
+    }
+    .game-package {
+        background: #000000;
+    }
+    .game-package-text {
+        color: #f5f5f5;
+        font-size: 80px;
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .installed-games {
+        background: #000000;
+    }
+    .content-border {
+        border-radius: 20px;
+    }
+    .game-title {
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 500;
+        letter-spacing: 0em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .gta-v-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2Fgta-v-icon.png?alt=media&token=25909f8d-ea61-43de-b72f-6d9d369300a2");
+        padding-bottom: 30px;
+    }
+    .COD-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FCOD-icon.png?alt=media&token=5ff1fbcd-5dae-4e0f-a626-2e8d0bc06acf");
+        padding-bottom: 30px;
+    }
+    .fortnite-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FFortnite-icon.png?alt=media&token=7c45d2f9-cf4e-4c46-b181-f32d999530f9");
+        padding-bottom: 30px;
+    }
+    .valorant-icon {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2Fvalorant-icon.png?alt=media&token=570923cf-3371-4155-b89d-eadc115db330");
+        padding-bottom: 30px;
+    }
+    .games-for-rotari1 {
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 500;
+        letter-spacing: .007em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #86868b;
+    }
+    .memory-and-storage-container {
+        background: #000000;
+    }
+    .bg-dark {
+        border-radius: 20px;
+    }
+    .memory-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .memory-title-card {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .memory-subtitle-card {
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 700;
+        letter-spacing: -.028em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .memory-description-card {
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #86868b;
+    }
+    .memory-capacity-card {
+        font-size: 96px;
+        line-height: 1.04167;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .memory-capacity-card span {
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 700;
+        letter-spacing: -.009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .argb-memory {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(60deg, #f64f59, #c471ed, #12c2e9);
+    }
+    .storage-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .storage-title-card {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .storage-subtitle-card {
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 700;
+        letter-spacing: -.028em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .storage-description-card {
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #86868b;
+    }
+    .storage-capacity-card {
+        font-size: 96px;
+        line-height: 1.04167;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .storage-capacity-card span {
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 700;
+        letter-spacing: -.009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #f5f5f5;
+    }
+    .connectivity-section {
+        background: #000000;
+    }
+    .connectivity-title {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: 0.004em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #f5f5f5;
+    }
+    .usb-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FUSB-icon.png?alt=media&token=349cab03-d0b6-4d91-9e63-74892f8e329a");
+    }
+    .bluetooth-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FBluetooth-icon.png?alt=media&token=8b8a683c-b341-42d3-85e6-57c995a9c127");
+    }
+    .audio-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FAudio-icon.png?alt=media&token=4af72bcb-3977-41e4-ad5d-5b7229ac7fce");
+    }
+    .wifi-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FWiFi-icon.png?alt=media&token=de039df7-a99a-47d5-a42c-9ea9d328db80");
+    }
+    .lan-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FLAN-icon.png?alt=media&token=37fba89d-c693-44ee-a4dc-74b17301331f");
+    }
+    .rgb-icon {
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        align-content: center;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/Arena-1-web-page-image-storage%2FRGB-icon.png?alt=media&token=60e9d7a3-c155-4ab0-9d17-ddf28eba01df");
+    }
+    .cnt-name {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: .011em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .cnt-name:hover {
+        text-decoration: underline;
+    }
+    .instruction-note {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: #ffffff;
+    }
+}
+
+
+/*======================================================================================================*/

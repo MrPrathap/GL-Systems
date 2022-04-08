@@ -1,0 +1,121 @@
+.Arena-1-checkout-area {
+    background-color: #000;
+}
+
+.buy-btn {
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #249EE2;
+    color: #ffffff;
+}
+
+
+/*=== Mobile View ===*/
+
+@media (min-width: 230px) {
+    .Product-name {
+        color: #ffffff;
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "gl-pro";
+    }
+    .storage-details {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: .011em;
+        font-family: "gl-pro";
+        color: #eff1ff;
+    }
+    .Product-details {
+        color: #eff1ff;
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .Product-price {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        color: #ffffff;
+    }
+}
+
+
+/*=== I-pad View ===*/
+
+@media (min-width: 734px) {
+    .Product-name {
+        color: #ffffff;
+        font-size: 44px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "gl-pro";
+    }
+    .storage-details {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 700;
+        letter-spacing: .009em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #eff1ff;
+    }
+    .Product-details {
+        color: #eff1ff;
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .Product-price {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        color: #ffffff;
+    }
+}
+
+
+/*=== Desktop View ===*/
+
+@media (min-width: 1069px) {
+    .Product-name {
+        color: #ffffff;
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -.003em;
+        font-family: "gl-pro";
+    }
+    .Product-details {
+        color: #eff1ff;
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 400;
+        letter-spacing: .011em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .storage-details {
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 700;
+        letter-spacing: .007em;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #eff1ff;
+    }
+    .Product-price {
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 400;
+        letter-spacing: .011em;
+        color: #ffffff;
+    }
+}

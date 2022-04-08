@@ -1,0 +1,231 @@
+.page-title {
+    background-color: rgba(29, 29, 31, 0.72);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    height: 35px;
+    top: 44px;
+    z-index: 999;
+}
+
+.title {
+    color: #fff;
+}
+
+.prd {
+    font-size: 18px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+/*=== Mobile View ===*/
+
+@media (min-width: 230px) {
+    .title {
+        font-size: 18px;
+        letter-spacing: .04em;
+        font-family: "mark";
+    }
+    .prd {
+        font-size: 13px;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .title .prd {
+        margin-left: 10px;
+    }
+}
+
+
+/*=== I-pad View ===*/
+
+@media (min-width: 734px) {
+    .title {
+        font-size: 22px;
+        letter-spacing: .04em;
+        font-family: "mark";
+    }
+    .prd {
+        font-size: 16px;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .title .prd {
+        margin-left: 10px;
+    }
+}
+
+
+/*=== Desktop View ===*/
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 25px;
+        letter-spacing: .04em;
+        font-family: "mark";
+    }
+    .prd {
+        font-size: 18px;
+    }
+    .title .prd {
+        margin-left: 10px;
+    }
+}
+
+.grad-bg {
+    margin-top: 79px;
+    background-image: linear-gradient(to top, #ffffff 0%, rgba(29, 29, 31, 0.72) 100%);
+}
+
+.model-3 {
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(1.5rem);
+    backdrop-filter: blur(1.5rem);
+    border-radius: 20px;
+    box-shadow: 4px 8px 24px rgb(0 0 0 / 20%);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.img-link,
+.Product-name {
+    cursor: pointer;
+}
+
+.see-more {
+    cursor: pointer;
+    color: #2193b0;
+}
+
+.see-more:hover {
+    text-decoration: underline;
+}
+
+
+/*=== Mobile View ===*/
+
+@media (min-width: 230px) {
+    /*====================== Banner ===========================*/
+    .rotar-i2 {
+        margin-top: 50px;
+    }
+    .Product-name {
+        color: #000;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .002em;
+        font-family: "mark";
+    }
+    .Product-name span {
+        margin-left: 6px;
+        color: #000;
+    }
+    .Product-quote {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .see-more {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .book-btn {
+        border-radius: 30px;
+        background: #2193b0;
+        background: -webkit-linear-gradient(to left, #6dd5ed, #2193b0);
+        background: linear-gradient(to left, #6dd5ed, #2193b0);
+        color: #ffffff;
+    }
+}
+
+
+/*=== I-pad View ===*/
+
+@media (min-width: 734px) {
+    /*====================== Banner ===========================*/
+    .rotar-i2 {
+        margin-top: 0px;
+    }
+    .Product-name {
+        color: #000;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .002em;
+        font-family: "mark";
+    }
+    .Product-name span {
+        margin-left: 6px;
+        color: #000;
+    }
+    .Product-quote {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: .011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .see-more {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .book-btn {
+        border-radius: 30px;
+        background: #2193b0;
+        background: -webkit-linear-gradient(to left, #6dd5ed, #2193b0);
+        background: linear-gradient(to left, #6dd5ed, #2193b0);
+        color: #ffffff;
+    }
+}
+
+
+/*=== Desktop View ===*/
+
+@media (min-width: 1024px) {
+    /*====================== Banner ===========================*/
+    .rotar-i2 {
+        margin-top: 0px;
+    }
+    .Product-name {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        color: #000;
+        letter-spacing: 0em;
+        font-family: "mark";
+    }
+    .Product-name span {
+        margin-left: 6px;
+        color: #000;
+    }
+    .Product-quote {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .see-more {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .book-btn {
+        border-radius: 10px;
+        background: #2193b0;
+        background: -webkit-linear-gradient(to left, #6dd5ed, #2193b0);
+        background: linear-gradient(to left, #6dd5ed, #2193b0);
+        color: #ffffff;
+    }
+}
+
+.product-tab {
+    padding-bottom: 150px;
+}

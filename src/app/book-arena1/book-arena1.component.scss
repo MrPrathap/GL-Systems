@@ -1,0 +1,214 @@
+    /*====================== Common styles ===========================*/
+    
+    .instruction-section {
+        background-color: #121212;
+    }
+    
+    .product-selection-tab {
+        background: #121212;
+    }
+    
+    .tab-container {
+        background: #000;
+        border-radius: 20px;
+    }
+    
+    .buy-btn {
+        padding-left: 80px;
+        padding-right: 80px;
+        background: #249EE2;
+        color: #ffffff;
+    }
+    
+    .storage-option-button {
+        border-radius: 20px;
+        border: 1px solid #249EE2;
+    }
+    
+    .storage-option-button:hover {
+        transition: all .3s ease-in-out;
+        box-shadow: 0px 0px 24px #249EE2;
+        border: 1px solid #000;
+    }
+    
+    .storage-option-button-2 {
+        border-radius: 20px;
+        border: 1px solid #b44453;
+    }
+    
+    .storage-option-button-2:hover {
+        transition: all .3s ease-in-out;
+        box-shadow: 0px 0px 24px #b44453;
+        border: 1px solid #000;
+    }
+    
+    .gl-divider {
+        border-top: 1px solid #249EE2;
+    }
+    
+    .gl-divider-2 {
+        border-top: 1px solid #b44453;
+    }
+    /*=== Mobile View ===*/
+    
+    @media (min-width: 230px) {
+        .hero-text {
+            font-size: 32px;
+            line-height: 1.125;
+            font-weight: 600;
+            letter-spacing: .004em;
+            font-family: "gl-pro";
+            color: #ffffff;
+        }
+        .Product-name {
+            color: #eff1ff;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-size: 100% 200%;
+            background-position: 50% 100%;
+            background-image: radial-gradient(#eff1ff, #000);
+            font-size: 40px;
+            line-height: 1.1;
+            font-weight: 600;
+            letter-spacing: 0em;
+            font-family: "gl-pro";
+        }
+        .storage-details {
+            font-size: 21px;
+            line-height: 1.19048;
+            font-weight: 600;
+            letter-spacing: .011em;
+            font-family: "gl-pro";
+            color: #eff1ff;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-size: 100% 200%;
+            background-position: 50% 100%;
+            background-image: radial-gradient(#eff1ff, #000);
+        }
+        .Product-details {
+            color: #eff1ff;
+            font-size: 17px;
+            line-height: 1.47059;
+            font-weight: 400;
+            letter-spacing: -.022em;
+            font-family: 'PT Sans Narrow', sans-serif;
+        }
+        .Product-price {
+            font-size: 17px;
+            line-height: 1.47059;
+            font-weight: 400;
+            letter-spacing: -.022em;
+            color: #ffffff;
+        }
+    }
+    /*=== I-pad View ===*/
+    
+    @media (min-width: 734px) {
+        .hero-text {
+            font-size: 40px;
+            line-height: 1.1;
+            font-weight: 600;
+            letter-spacing: 0em;
+            font-family: "gl-pro";
+            color: #ffffff;
+        }
+        .Product-name {
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-size: 100% 200%;
+            background-position: 50% 100%;
+            background-image: radial-gradient(#eff1ff, #000);
+            font-size: 44px;
+            line-height: 1.1;
+            font-weight: 600;
+            letter-spacing: 0em;
+            font-family: "gl-pro";
+        }
+        .storage-details {
+            font-size: 24px;
+            line-height: 1.16667;
+            font-weight: 700;
+            letter-spacing: .009em;
+            font-family: 'PT Sans Narrow', sans-serif;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-size: 100% 200%;
+            background-position: 50% 100%;
+            background-image: radial-gradient(#eff1ff, #000);
+            color: #eff1ff;
+        }
+        .Product-details {
+            color: #eff1ff;
+            font-size: 17px;
+            line-height: 1.47059;
+            font-weight: 400;
+            letter-spacing: -.022em;
+            font-family: 'PT Sans Narrow', sans-serif;
+        }
+        .Product-price {
+            font-size: 17px;
+            line-height: 1.47059;
+            font-weight: 400;
+            letter-spacing: -.022em;
+            color: #ffffff;
+        }
+    }
+    /*=== Desktop View ===*/
+    
+    @media (min-width: 1069px) {
+        .hero-text {
+            font-size: 56px;
+            line-height: 1.07143;
+            font-weight: 600;
+            letter-spacing: -.005em;
+            font-family: "gl-pro";
+            color: #ffffff;
+        }
+        .Product-name {
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-size: 100% 200%;
+            background-position: 50% 100%;
+            background-image: radial-gradient(#eff1ff, #000);
+            font-size: 48px;
+            line-height: 1.08349;
+            font-weight: 600;
+            letter-spacing: -.003em;
+            font-family: "gl-pro";
+        }
+        .Product-details {
+            color: #eff1ff;
+            font-size: 21px;
+            line-height: 1.381;
+            font-weight: 400;
+            letter-spacing: .011em;
+            font-family: 'PT Sans Narrow', sans-serif;
+        }
+        .storage-details {
+            font-size: 28px;
+            line-height: 1.14286;
+            font-weight: 700;
+            letter-spacing: .007em;
+            font-family: 'PT Sans Narrow', sans-serif;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-size: 100% 200%;
+            background-position: 50% 100%;
+            background-image: radial-gradient(#eff1ff, #000);
+            color: #eff1ff;
+        }
+        .Product-price {
+            font-size: 21px;
+            line-height: 1.381;
+            font-weight: 400;
+            letter-spacing: .011em;
+            color: #ffffff;
+        }
+    }

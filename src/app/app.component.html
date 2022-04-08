@@ -1,0 +1,17 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav [fixedInViewport]="true" role="navigation" mode="over">
+        <app-sidenav-list (sidenavClose)="sidenav.close()"></app-sidenav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <main>
+
+        </main>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+<Geniland-global-nav (sidenavToggle)="sidenav.toggle()"></Geniland-global-nav>
+<div class="router-container" [@routeAnimation]="getDepth(myOutlet)">
+    <div *ngIf="loaderService.isLoading | async" class="loading-bar fixed-top">
+        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    </div>
+    <router-outlet #myOutlet="outlet"></router-outlet>
+</div>

@@ -1,0 +1,434 @@
+/*====================== Common styles ===========================*/
+
+.pg-bg {
+    background: #d9d9d9;
+}
+
+.bg-row {
+    background: #ffffff;
+    border-radius: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    box-shadow: 0px 0px 24px rgb(0 0 0 / 20%);
+}
+
+.book-btn {
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #249EE2;
+    color: #ffffff;
+}
+
+.product-page-nav {
+    background: rgba(195, 207, 226, 0.76);
+    margin-right: 10px;
+}
+
+.share-button {
+    background: rgba(195, 207, 226, 0.76);
+    margin-left: 10px;
+}
+
+.modal-1 {
+    background-image: linear-gradient(135deg, rgba(245, 247, 250, 0.74) 0%, rgba(195, 207, 226, 0.76) 100%);
+    -webkit-backdrop-filter: blur(1.5rem);
+    backdrop-filter: blur(1.5rem);
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px rgb(0 0 0 / 20%);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.modal-2 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px rgb(0 0 0 / 20%);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.img-link,
+.Product-name {
+    cursor: pointer;
+}
+
+.explore-quote {
+    box-shadow: 0 -5px 5px -5px rgb(0 0 0 / 20%);
+}
+
+.highlight-box {
+    background-image: linear-gradient(120deg, #fdfbfbb8 0%, #ebedeeb8 100%);
+    -webkit-backdrop-filter: blur(1.5rem);
+    backdrop-filter: blur(1.5rem);
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px rgb(0 0 0 / 20%);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+
+/*=== Mobile View ===*/
+
+@media (min-width: 230px) {
+    /*====================== Banner ===========================*/
+    .Product-name {
+        padding-top: 20px;
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "gl-pro";
+    }
+    .Product-quote {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: .011em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .Product-price {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+    }
+    /*====================== TAB Area ===========================*/
+    .caption {
+        margin-top: 70px;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .tab-Product-name {
+        margin-top: 15px;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 600;
+        letter-spacing: .012em;
+        color: #000;
+        font-family: "gl-pro";
+    }
+    .tab-Product-name span {
+        margin-left: 6px;
+        color: #000;
+    }
+    .tab-product-price {
+        color: #000;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .component-info {
+        color: #000;
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 500;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .spec-details {
+        color: #86868b;
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .argb-color {
+        background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    /*====================== Service Area ===========================*/
+    .service-caption {
+        margin-top: 70px;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .heading {
+        margin-top: 20px;
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .details {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .know-more {
+        cursor: pointer;
+        color: #2193b0;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .know-more:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+}
+
+
+/*=== I-pad View ===*/
+
+@media (min-width: 734px) {
+    /*====================== Banner ===========================*/
+    .Arena-1-image-container {
+        position: relative;
+    }
+    .Arena-1-image {
+        width: 768px;
+        height: 484px;
+        background-size: 768px 484px;
+        background-repeat: no-repeat;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/gl-computer-reserve.appspot.com/o/GamingPc-web-page-image-storage%2FAerna-1-promo-page-ms.jpg?alt=media&token=27335a34-902d-4813-ac61-36f82cf6aa1e");
+    }
+    .Arena-1-content {
+        position: absolute;
+        right: 25%;
+    }
+    .Product-name {
+        padding-top: 0px;
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -.003em;
+        font-family: "gl-pro";
+    }
+    .Product-quote {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: .011em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .Product-price {
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+    }
+    /*====================== TAB Area ===========================*/
+    .caption {
+        margin-top: 70px;
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .tab-Product-name {
+        margin-top: 15px;
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: .011em;
+        color: #000;
+        font-family: "gl-pro";
+    }
+    .tab-Product-name span {
+        margin-left: 6px;
+        color: #000;
+    }
+    .tab-product-price {
+        color: #000;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .component-info {
+        color: #000;
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 500;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .spec-details {
+        color: #86868b;
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .argb-color {
+        background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    /*====================== Service Area ===========================*/
+    .service-caption {
+        margin-top: 70px;
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .heading {
+        margin-top: 10px;
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 600;
+        letter-spacing: .011em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .details {
+        font-size: 19px;
+        line-height: 1.4211;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .know-more {
+        cursor: pointer;
+        color: #2193b0;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .know-more:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+}
+
+
+/*=== Desktop View ===*/
+
+@media (min-width: 1069px) {
+    /*====================== Banner ===========================*/
+    .Product-name {
+        padding-top: 5px;
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: "gl-pro";
+    }
+    .Product-quote {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .Product-price {
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .006em;
+    }
+    /*====================== TAB Area ===========================*/
+    .caption {
+        margin-top: 70px;
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -.003em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .tab-Product-name {
+        margin-top: 15px;
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        color: #000;
+        font-family: "gl-pro";
+    }
+    .tab-Product-name span {
+        margin-left: 6px;
+        color: #000;
+    }
+    .tab-product-price {
+        color: #000;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .component-info {
+        color: #000;
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 500;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .spec-details {
+        color: #86868b;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .argb-color {
+        background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    /*====================== Service Area ===========================*/
+    .service-caption {
+        margin-top: 70px;
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -.003em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .heading {
+        margin-top: 10px;
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 600;
+        letter-spacing: .011em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .details {
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 400;
+        letter-spacing: .011em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .know-more {
+        cursor: pointer;
+        color: #2193b0;
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -.016em;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    .know-more:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+}

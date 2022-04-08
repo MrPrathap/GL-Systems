@@ -1,0 +1,17 @@
+mat-sidenav-container,
+mat-sidenav-content,
+mat-sidenav {
+    z-index: 2000;
+}
+
+mat-sidenav {
+    width: 100%;
+}
+
+.router-container {
+    position: relative;
+}
+
+.router-container>* {
+    display: block;
+}

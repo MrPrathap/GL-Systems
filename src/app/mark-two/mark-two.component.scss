@@ -1,0 +1,142 @@
+.page-title {
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    height: 35px;
+    position: sticky;
+    width: 100%;
+    top: 48px;
+    z-index: 999;
+}
+
+.introduction-area {
+    margin-top: 40px;
+}
+
+
+/*=================================================*/
+
+
+/*=== Mobile View ===*/
+
+@media (min-width: 230px) {
+    .title {
+        font-size: 18px;
+        margin-top: 1px;
+        color: #ffffff;
+        letter-spacing: .04em;
+        font-family: "mark";
+    }
+    .title span {
+        margin-left: 6px;
+    }
+    .wlcm-1 {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .wlcm-2 {
+        font-size: 35px;
+        font-family: "mark";
+        font-weight: 600;
+        color: #000;
+        letter-spacing: .04em;
+    }
+    .wlcm-2 span {
+        margin-left: 10px;
+        color: #000;
+    }
+    .lead {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: .011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+
+
+/*=== I-pad View ===*/
+
+@media (min-width: 734px) {
+    .title {
+        font-size: 22px;
+        margin-top: 1px;
+        color: #ffffff;
+        letter-spacing: .04em;
+        font-family: "mark";
+    }
+    .title span {
+        margin-left: 6px;
+    }
+    .wlcm-1 {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .wlcm-2 {
+        font-size: 45px;
+        font-family: "mark";
+        font-weight: 600;
+        color: #000;
+        letter-spacing: .04em;
+    }
+    .wlcm-2 span {
+        margin-left: 10px;
+        color: #000;
+    }
+    .lead {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+
+
+/*=== Desktop View ===*/
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 25px;
+        margin-top: 1px;
+        color: #ffffff;
+        letter-spacing: .04em;
+        font-family: "mark";
+    }
+    .title span {
+        margin-left: 6px;
+    }
+    .wlcm-1 {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -.003em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .wlcm-2 {
+        margin-top: 25px;
+        font-size: 56px;
+        font-family: "mark";
+        font-weight: 600;
+        color: #000;
+        letter-spacing: .04em;
+    }
+    .wlcm-2 span {
+        margin-left: 10px;
+        color: #000;
+    }
+    .lead {
+        padding-top: 15px;
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 600;
+        letter-spacing: .007em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}

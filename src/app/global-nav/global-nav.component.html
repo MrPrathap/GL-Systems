@@ -1,0 +1,30 @@
+<mat-toolbar class="top-header menu-bar-viewer">
+    <a mat-button class="nav-buttons bs-logo" [routerLinkActiveOptions]="{ exact:true }" routerLink="/" routerLinkActive="active" #tooltip="matTooltip" matTooltip="Home" [matTooltipPosition]="'below'" matTooltipHideDelay="100"><img class="navbar-logo-1 anime-1" style="width: 22px; height: 25px;" src="../assets/Logo/GL-global-nav-logo.svg" alt="Geniland"></a>
+    <a mat-button class="nav-buttons anime-2" routerLink="/Upgradable" routerLinkActive="active" #tooltip="matTooltip" matTooltip="Future upgradable" [matTooltipPosition]="'below'" matTooltipHideDelay="100">Upgradable</a>
+    <a mat-button class="nav-buttons anime-3" routerLink="/Gaming" routerLinkActive="active" #tooltip="matTooltip" matTooltip="Made for gaming" [matTooltipPosition]="'below'" matTooltipHideDelay="100">Gaming</a>
+    <a mat-button class="nav-buttons anime-4" routerLink="/Editing" routerLinkActive="active" #tooltip="matTooltip" matTooltip="Editors Core" [matTooltipPosition]="'below'" matTooltipHideDelay="100">Editing</a>
+    <a mat-button class="nav-buttons anime-5" routerLink="/Productivity" routerLinkActive="active" #tooltip="matTooltip" matTooltip="Made for produtivity" [matTooltipPosition]="'below'" matTooltipHideDelay="100">Productivity</a>
+    <a mat-button class="nav-buttons anime-6" routerLink="/Custom" routerLinkActive="active" #tooltip="matTooltip" matTooltip="Customize your PC" [matTooltipPosition]="'below'" matTooltipHideDelay="100">Custom</a>
+    <a mat-button class="nav-buttons anime-7" routerLink="/Custom" routerLinkActive="active" #tooltip="matTooltip" matTooltip="Customer support" [matTooltipPosition]="'below'" matTooltipHideDelay="100">Support</a>
+    <button class="gl-sidenav-toggler hamburger-btn hamburger-anime" mat-icon-button (click)="onTogglerSidenav()"><mat-icon>menu_open</mat-icon></button>
+    <a mat-button class="logo-area navbar-logo-2" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact:true }" #tooltip="matTooltip" matTooltip="Home" [matTooltipPosition]="'below'" matTooltipHideDelay="100"><img class="logo-anime" src="../assets/Logo/GL-global-nav-logo.svg" alt="Geniland"></a>
+    <div class="mat-menu gl-menu-toggler">
+        <button class="menu-icon menu-anime" mat-icon-button [matMenuTriggerFor]="menu" aria-label="menu">
+                <mat-icon>more_vert</mat-icon>
+              </button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+                  <mat-icon>dialpad</mat-icon>
+                  <span>Redial</span>
+                </button>
+            <button mat-menu-item disabled>
+                  <mat-icon>voicemail</mat-icon>
+                  <span>Check voice mail</span>
+                </button>
+            <button mat-menu-item>
+                  <mat-icon>notifications_off</mat-icon>
+                  <span>Disable alerts</span>
+                </button>
+        </mat-menu>
+    </div>
+</mat-toolbar>
